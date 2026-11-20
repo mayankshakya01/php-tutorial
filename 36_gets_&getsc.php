@@ -1,5 +1,5 @@
 <?php
-$file = fopen("sample.txt", "r");
+$file = fopen("myfile.txt", "r");
 
 //fgets check the file line by line means one fgets check the the one line and move to the next line 
 

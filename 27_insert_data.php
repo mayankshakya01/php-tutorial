@@ -9,7 +9,7 @@ if ($conn) {
 } else {
     echo "connection is failed<br>";
 }
-$sql = "INSERT INTO employees values('aryan',18,'9245673973')";
+$sql = "INSERT INTO employees values('ayush',20,'9245678900')";
 $result = mysqli_query($conn, $sql);
 if ($result) {
     echo "data has been inserted";
